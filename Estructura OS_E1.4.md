@@ -1,67 +1,67 @@
-# E1. Exercise 4. Operating System structure
+# E1. Ejercicio 4. Estructura del sistema operativo.
 
-## Introduction
+## Introducción
 
-We can divide operating system in following parts:
-- Kernel
-- Memory manager
-- Input/Output manager
-- Filesystem manager
+Podemos dividir el sistema operativo en las siguientes partes:
+- Núcleo
+- administrador de memoria
+- Gestor de entrada / salida
+- administrador del sistema de archivos
 
-## Contents
+## Contenidos
 
-Let's analyze operating system behaviour on each module. We will be using linux comands to see what's going on on a linux OS.
+Analicemos el comportamiento del sistema operativo en cada módulo. Usaremos los comandos de Linux para ver qué está sucediendo en un sistema operativo Linux.
 
-## Delivery
+## Entrega
 
-### Kernel
+### Núcleo
 
-1. **Where does the kernel reside in disk?** Write down the command with the output and tell exactly where it is the kernel.
-
-
-2. **How can we show the actual kernel version that it is loaded on our system**? Please show command output
+1. **¿Dónde reside el kernel en el disco?** Escriba el comando con la salida y diga exactamente dónde está el kernel.
 
 
-3. **How can we show the detected hardware done by the kernel?** Please show command output.
+2. **¿Cómo podemos mostrar la versión real del kernel que está cargada en nuestro sistema?** Por favor muestra el resultado del comando
 
 
-4. **How can we show the modules (drivers) actually in use?** Which module it is being used for video graphics card?
+3. **¿Cómo podemos mostrar el hardware detectado por el kernel?** Por favor, muestre el resultado del comando.
 
 
-
-### Memory manager
-
-1. **What is the 'cache' memory that shows the command 'free -m'?** Show also the command output
-
-
-2. **What is the 'swap' memory that shows the command 'free -m'?**
-
-
-3. **How does the memory manager handle an out-of-memory problem?**
-
-
-4. **How can we show the actual 'out of memory score' of a Gimp instance that it is running?**
+4. **¿Cómo podemos mostrar los módulos (controladores) realmente en uso?** ¿Qué módulo se está utilizando para la tarjeta gráfica de video?
 
 
 
-### Input/Output manager
+### Administrador de memoria
 
-1. **How can we list all the interrupts that it is aware our Operating System?** Show also command output
-
-
-2. **In multiprocessor systems, how does the operating system distribute interrupts by default?** How can we change the default behaviour?
+1. **¿Qué es la memoria 'caché' que muestra el comando 'free -m'?** Muestra también la salida del comando
 
 
-3. **How does an operating system control a device that has no interrupts?** Explain the process 
+2. **¿Qué es la memoria 'swap' que muestra el comando 'free -m'?**
 
 
-4. **What will happen if two applications want to send data through network device at the same time?**
+3. **¿Cómo maneja el administrador de memoria un problema de falta de memoria?**
+
+
+4. **¿Cómo podemos mostrar el 'puntaje de memoria' real de una instancia de Gimp que se está ejecutando?**
 
 
 
-### Filesystem manager
+### Administrador de entrada / salida
 
-1. **Which is the typical linux folder structure? ** Describe what it is and the use of each folder.
+1. **¿Cómo podemos enumerar todas las interrupciones que conoce nuestro sistema operativo?** Mostrar también el resultado del comando
+
+
+2. **En los sistemas multiprocesador, ¿cómo distribuye el sistema operativo las interrupciones de forma predeterminada?** ¿Cómo podemos cambiar el comportamiento predeterminado?
+
+
+3. **¿Cómo controla un sistema operativo un dispositivo que no tiene interrupciones?** Explique el proceso
+
+
+4. **¿Qué ocurrirá si dos aplicaciones desean enviar datos a través de un dispositivo de red al mismo tiempo?**
+
+
+
+### Administrador del sistema de archivos
+
+1. **¿Cuál es la típica estructura de carpetas de Linux? ** Describe qué es y el uso de cada carpeta.**
 - bin:  
 - boot:  
 - dev:  
@@ -83,8 +83,8 @@ Let's analyze operating system behaviour on each module. We will be using linux 
 - usr:
 - var:
 
-2. **How can we:?**
-- Move a file that resides in /usr/local/src/file.md to the folder /opt:
-- Copy a file that resides in /usr/local/src/file.md to the folder /opt:
-- Move a file in /usr/file.md to /usr/local if we are currently in path /usr/local:
-- Create the file .gitignore using command 'touch' and then try to list it (ls). What happens?
+2. **¿Cómo podemos:?**
+- Mueva un archivo que reside en /usr/local/src/file.md a la carpeta / opt:
+- Copie un archivo que reside en /usr/local/src/file.md a la carpeta / opt:
+- Mueva un archivo en /usr/file.md a / usr / local si estamos actualmente en la ruta / usr / local:
+- Cree el archivo .gitignore usando el comando 'tocar' y luego intente listarlo (ls). ¿Lo que pasa?
