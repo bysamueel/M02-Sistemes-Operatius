@@ -53,8 +53,7 @@ Analicemos el comportamiento del sistema operativo en cada módulo. Usaremos los
 4. **¿Cómo podemos mostrar los módulos (controladores) realmente en uso?** ¿Qué módulo se está utilizando para la tarjeta gráfica de video?  
 
 #lsmod   
-
-[![Image from Gyazo](https://thumb.gyazo.com/thumb/200/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWciOiJfZjVmZjBjYWUwMDkyOTMwMDllOTZjYThmMTJmNTI2MjEifQ.lb6myX18D3saXbvcDIudU1J0_JQmdmfHUs45PHGzHFc-png.jpg)](https://gyazo.com/45a5295496e7ad3d880d5d883e789929)
+[![Image from Gyazo](https://thumb.gyazo.com/thumb/200/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWciOiJfMTI3N2UwMTk0NmJlOTUzMzg1OWUxNWY2MjcxOWNkMjAifQ.2cI-CwKkMLKsf6qXoqppazE7kbMiug7Bc74PZuGO17Y-png.jpg)](https://gyazo.com/8517d4f5a9243d26002d3cabd483ff54)
   
 ### Administrador de memoria
 
